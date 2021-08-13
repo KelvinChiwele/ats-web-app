@@ -31,7 +31,6 @@
           md="3"
         >
           <base-team-member
-            class="pa-3"
             v-bind="employee"
           />
         </v-col>
