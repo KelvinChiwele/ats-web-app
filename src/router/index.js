@@ -34,8 +34,8 @@ const router = new Router({
           component: () => import('@/views/services/Index.vue'),
         },
         {
-          path: 'portfolio',
-          name: 'Portfolio',
+          path: 'products',
+          name: 'Products',
           component: () => import('@/views/portfolio/Index.vue'),
         },
         {

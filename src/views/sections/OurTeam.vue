@@ -53,8 +53,8 @@
               { link: 'https://twitter.com', icon: 'mdi-twitter' },
               { link: 'mailto:sample@example.com', icon: 'mdi-email' },
             ],
-            src: require('@/assets/team/rana-sawalha-IhuHLIxS_Tk-unsplash.jpg'),
-          },
+            src: require('@/assets/team/maize.jpg'),
+          }, 
           {
             title: 'COO',
             name: 'Sherri Cayne',
@@ -63,7 +63,7 @@
               { link: 'https://twitter.com', icon: 'mdi-twitter' },
               { link: 'mailto:sample@example.com', icon: 'mdi-email' },
             ],
-            src: require('@/assets/team/christopher-campbell-rDEOVtE7vOs-unsplash.jpg'),
+             src: require('@/assets/team/maize.jpg'),
           },
           {
             title: 'CTO',
@@ -73,7 +73,7 @@
               { link: 'https://twitter.com', icon: 'mdi-twitter' },
               { link: 'mailto:sample@example.com', icon: 'mdi-email' },
             ],
-            src: require('@/assets/team/dan-ROJFuWCsfmA-unsplash.jpg'),
+             src: require('@/assets/team/maize.jpg'),
           },
           {
             title: 'CFO',
@@ -83,7 +83,7 @@
               { link: 'https://twitter.com', icon: 'mdi-twitter' },
               { link: 'mailto:sample@example.com', icon: 'mdi-email' },
             ],
-            src: require('@/assets/team/brooke-cagle-wKOKidNT14w-unsplash.jpg'),
+             src: require('@/assets/team/maize.jpg'),
           },
         ],
       }

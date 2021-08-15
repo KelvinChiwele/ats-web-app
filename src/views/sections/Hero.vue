@@ -4,7 +4,7 @@
     space="0"
   >
     <v-img
-      :src="require('@/assets/green-field-v4.jpg')"
+      :src="require('@/assets/green-field-v5.jpg')"
       max-height="695px"
     >
       <v-theme-provider dark>

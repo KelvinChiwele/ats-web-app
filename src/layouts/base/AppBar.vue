@@ -6,13 +6,13 @@
     :color="color || 'white'"
     :height="$vuetify.breakpoint.mdAndUp ? '60px' : '60px'"
   >
-    <v-img
+    <!-- <v-img
       class="hidden-sm-and-down"
       :max-width="$vuetify.breakpoint.mdAndUp ? '60px' : '60px'"
       max-height="60px"
       min-height="60px"
       :src="require('@/assets/campfire.svg')"
-    />
+    /> -->
 
     <v-toolbar-title class="text-h5">
       <router-link
@@ -97,7 +97,7 @@
           { name: 'Home', icon: 'mdi-home' },
           { name: 'About', icon: 'mdi-account-group' },
           // { name: 'Services', icon: 'mdi-book-open-variant' },
-          { name: 'Portfolio', icon: 'mdi-book' },
+          { name: 'Products', icon: 'mdi-book' },
           // { name: 'Blog', icon: 'mdi-web' },
           { name: 'Contact', icon: 'mdi-phone' },
         ],

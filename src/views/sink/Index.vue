@@ -102,7 +102,7 @@
           title="CEO"
           name="Neil Barnett"
           :social-links="teamSocialLinks"
-          :src="require('@/assets/team/rana-sawalha-IhuHLIxS_Tk-unsplash.jpg')"
+          :src="require('@/assets/team/maize.jpg')"
         />
       </v-col>
       <v-col
@@ -114,7 +114,7 @@
           title="COO"
           name="Sherri Cayne"
           :social-links="teamSocialLinks"
-          :src="require('@/assets/team/christopher-campbell-rDEOVtE7vOs-unsplash.jpg')"
+          :src="require('@/assets/team/maize.jpg')"
         />
       </v-col>
       <v-col
@@ -126,7 +126,7 @@
           title="CTO"
           name="Erica Baker"
           :social-links="teamSocialLinks"
-          :src="require('@/assets/team/dan-ROJFuWCsfmA-unsplash.jpg')"
+          :src="require('@/assets/team/maize.jpg')"
         />
       </v-col>
       <v-col
@@ -138,7 +138,7 @@
           title="CFO"
           name="Wesley Graves"
           :social-links="teamSocialLinks"
-          :src="require('@/assets/team/brooke-cagle-wKOKidNT14w-unsplash.jpg')"
+          :src="require('@/assets/team/maize.jpg')"
         />
       </v-col>
     </v-row>

@@ -1,15 +1,16 @@
 <template>
   <v-hover #default="{ hover }">
     <v-card
-      max-height="400"
+      max-height="480"
       width="auto"
+      height="auto"
       class="px-auto"
+      tile=""
       flat
-      tile
     >
       <v-img
-        min-height="300"
-        max-height="300"
+        min-height="480"
+        max-height="480"
         fill
         :src="src"
       >
