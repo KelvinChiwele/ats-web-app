@@ -14,10 +14,11 @@
 
     mixins: [
       LoadSections([
-        'story',
-        'story-alt',
-        'our-team',
-        'stats',
+        'what-is-ats',
+        'vision',
+        'focus',
+        // 'our-team',
+        // 'stats',
         'info',
       ]),
     ],

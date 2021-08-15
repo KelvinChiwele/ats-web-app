@@ -15,14 +15,14 @@
       >
         <base-heading
           class="font-weight-bold py-3"
-          title="Who are we?"
+          title="Our Vision"
           align="left"
         />
         <base-body
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sem nibh, dapibus id turpis in, feugiat pharetra purus. Vivamus convallis erat eget lacinia molestie. Aliquam libero urna, imperdiet sed ipsum at, cursus accumsan nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris non dui volutpat, dignissim lectus quis, posuere lectus. Aliquam condimentum consectetur ante nec efficitur. Nulla id enim pulvinar, tincidunt mauris et, fringilla leo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec id est vitae neque auctor elementum vitae ut justo. Nam tristique scelerisque fermentum. Sed in tincidunt leo. Nullam eu imperdiet enim. Nam semper leo eu diam rutrum lacinia. Nam fermentum leo nec lacus efficitur, tincidunt fermentum dui blandit. Nunc mattis neque ac turpis sagittis gravida."
+          text="To be a supplier of choice for crop protection solutions, consistently and sustainably delivering effective, reliable products and advice to our stakeholders - farmers, through a highly professional Sales Technical team with a countrywide distribution network.  "
           align="left"
         />
-        <base-btn
+        <!-- <base-btn
           class="my-10 elevation-0 mx-1"
           rounded
           color="black"
@@ -45,7 +45,7 @@
             class="font-weight-black text-none"
             v-text="'Learn More'"
           />
-        </base-btn>
+        </base-btn> -->
       </v-col>
       <v-col
         cols="12"

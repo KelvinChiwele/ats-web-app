@@ -29,9 +29,9 @@
           align="left"
         />
         <base-body
-          text="Duis fringilla mauris ac pellentesque suscipit. Vestibulum in feugiat felis. Cras eget mattis lectus, sit amet ultricies leo. Donec imperdiet diam eu lectus scelerisque accumsan. Quisque sollicitudin, diam non eleifend tempor, tortor tortor pulvinar enim, sit amet maximus neque metus ac nulla. Morbi pellentesque leo ut nulla scelerisque pulvinar. In hac habitasse platea dictumst. Donec scelerisque ante ante, vel tempor dolor auctor ut. Sed et luctus leo, eu egestas sapien. In semper commodo urna, id lacinia mi pretium eu. Suspendisse ornare blandit ligula id fermentum. Nulla lobortis, ligula quis consequat elementum, elit odio fringilla ligula, commodo tristique leo elit ac ex. Vestibulum semper sagittis odio sed aliquam. Pellentesque at turpis vel augue scelerisque malesuada at sit amet augue."
+          text="Empowering Farmers & Agro-Dealers through capacity building by training agrochemical users & dealers on proper use of crop protection inputs, which is critical in: 1. Ensuring increased production of high quality crops. 2. Safeguarding the health & safety of consumers & the environment."
         />
-        <base-btn
+        <!-- <base-btn
           class="my-10 elevation-0 mx-1"
           rounded
           color="black"
@@ -54,7 +54,7 @@
             class="font-weight-black text-none"
             v-text="'Learn More'"
           />
-        </base-btn>
+        </base-btn> -->
       </v-col>
     </v-row>
   </base-section>
