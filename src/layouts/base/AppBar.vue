@@ -19,7 +19,7 @@
         :to="{ name: 'Home' }"
         tag="h4"
         style="cursor: pointer"
-        v-text="appData.title"
+        v-text="appData.subTitle"
       />
     </v-toolbar-title>
 

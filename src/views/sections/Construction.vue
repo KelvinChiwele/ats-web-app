@@ -1,10 +1,10 @@
 <template>
   <base-section id="construction">
-    <v-img
+    <!-- <v-img
       :src="require('@/assets/under-construction-dual.svg')"
       min-height="500px"
       max-height="500px"
-    >
+    > -->
       <v-theme-provider>
         <v-container class="fill-height px-5 py-12">
           <v-responsive

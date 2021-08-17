@@ -24,7 +24,7 @@
                   :title="`${appData.title}`"
                 />
                 <base-subheading
-                  title="Awesome, Clean & Unique"
+                  title="Proudly serving & supporting farmers."
                 />
                 <base-body
                   text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquet mauris non venenatis auctor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per."
@@ -46,10 +46,11 @@
                   height="50px"
                   color="white"
                   class="font-weight-bold text-none mr-4 mb-1"
-                  href="https://store.vuetifyjs.com/products/flairo-theme-pro"
                   target="_blank"
                 >
-                  <span v-text="`${appData.title}`" />
+                                  <!-- href="https://store.vuetifyjs.com/products/flairo-theme-pro" -->
+
+                  <span v-text="`${appData.subTitle}`" />
                 </base-btn>
               </v-col>
               <v-col

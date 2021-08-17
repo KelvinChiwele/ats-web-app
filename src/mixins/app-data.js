@@ -2,13 +2,14 @@ export default {
   computed: {
     appData () {
       return {
-        title: 'ATS AGROCHEMICALS LTD',
+        title: 'ATS Agrochemicals Ltd',
+        subTitle: 'ATS AGROCHEMICALS LTD',
         socialLinks: [
-          { name: 'Facebook', icon: 'mdi-facebook', link: 'https://facebook.com', color: '#0F98F6' },
-          { name: 'Instagram', icon: 'mdi-instagram', link: 'https://instagram.com', color: '#EF0075' },
+          { name: 'Facebook', icon: 'mdi-facebook', link: 'https://facebook.com/atszambia', color: '#0F98F6' },
+          { name: 'Instagram', icon: 'mdi-instagram', link: 'https://www.instagram.com/_u/atsagrochemicalslimited', color: '#EF0075' },
           // { name: 'Twitter', icon: 'mdi-twitter', link: 'https://twitter.com', color: '#1A91DA' },
-          { name: 'Youtube', icon: 'mdi-youtube', link: 'https://youtube.com', color: '#FE0200' },
-          { name: 'LinkedIn', icon: 'mdi-linkedin', link: 'https://linkedin.com', color: '#0077B5' },
+          { name: 'Youtube', icon: 'mdi-youtube', link: 'https://www.youtube.com/channel/UCVdTZDqlfK1bpMFbBQx4kAA', color: '#FE0200' },
+          { name: 'LinkedIn', icon: 'mdi-linkedin', link: 'https://www.linkedin.com/company/ats-agrochemicals-limited', color: '#0077B5' },
         ],
         contact: {
           phone: { value: '+260 9064 5707', icon: 'mdi-phone' },
