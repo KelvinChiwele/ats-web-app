@@ -50,7 +50,7 @@
       />
     </v-row>
     <v-row justify="center">
-      <base-testimony
+      <!-- <base-testimony
         :src="require('@/assets/testimony/testimony-1.jpg')"
         :background-src="require('@/assets/background-light.png')"
         :customer="{ review: 'Lorem ipsum dolor sit amet, consequam, adipiscingconmentum tristiidem nemo minima.', name: 'Sample Name', title: 'New Customer' }"
@@ -58,7 +58,7 @@
       <base-testimony
         :src="require('@/assets/testimony/testimony-3.jpg')"
         :customer="{ review: 'Lorem ipsum dolor sit amet, consequam, adipiscingconmentum tristiidem nemo minima.', name: 'Sample Name', title: 'New Customer' }"
-      />
+      /> -->
     </v-row>
     <v-row justify="center">
       <base-feature-alt

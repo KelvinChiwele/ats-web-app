@@ -5,7 +5,7 @@
     class="px-3"
   >
     <v-img
-      :src="require('@/assets/federico-respini-sYffw0LNr7s-unsplash.jpg')"
+      :src="require('@/assets/green-field-v5.jpg')"
       height="500px"
       fill
       min-height="400px"
