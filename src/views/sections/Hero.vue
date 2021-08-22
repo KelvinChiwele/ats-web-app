@@ -8,7 +8,7 @@
       max-height="695px"
     >
       <v-theme-provider dark>
-        <v-container class="fill-height px-5 py-12">
+        <v-container class="fill-height px-2 py-6">
           <v-responsive
             class="d-flex align-center justify-center"
             height="100%"
@@ -19,15 +19,18 @@
                 cols="12"
                 md="6"
               >
-                <base-heading
+                <!-- <base-heading
                   class="text-uppercase font-weight-bold"
                   :title="`${appData.title}`"
-                />
+                /> -->
+                 <!-- <base-body
+                  text="ATS AGROCHEMICALS LIMTED"
+                /> -->
                 <base-subheading
                   title="Proudly serving & supporting farmers."
                 />
                 <base-body
-                  text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquet mauris non venenatis auctor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per."
+                  text="Would you like to know how much you need to invest on our products for an amazing yield, get a quote..."
                 />
                 <!-- <base-btn
                   rounded
@@ -50,7 +53,7 @@
                 >
                                   <!-- href="https://store.vuetifyjs.com/products/flairo-theme-pro" -->
 
-                  <span v-text="`${appData.subTitle}`" />
+                  <span v-text="`REQUEST A QUOTE`" />
                 </base-btn>
               </v-col>
               <v-col

@@ -13,10 +13,7 @@
         color="primary"
         align="center"
       />
-      <base-body
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquet mauris non venenatis auctor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per."
-        align="center"
-      />
+
     </div>
     <v-row
       justify="center"

@@ -18,9 +18,9 @@
         'section-products',
         // 'flexible-callout',
         // 'our-team',
-        'CropTypes',
+        'sections-crops',
         // 'standout-callout',
-        'info',
+        'section-footer',
       ]),
     ],
 

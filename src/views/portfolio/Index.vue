@@ -15,7 +15,7 @@
     mixins: [
       LoadSections([
         'project-gallery',
-        'info',
+        'section-footer',
       ]),
     ],
 

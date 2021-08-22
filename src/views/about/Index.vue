@@ -19,7 +19,7 @@
         'focus',
         // 'our-team',
         // 'stats',
-        'info',
+        'section-footer',
       ]),
     ],
 

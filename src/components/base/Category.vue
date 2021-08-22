@@ -4,51 +4,29 @@
     v-bind="$attrs"
   >
     <v-card-text>
-      <!-- <v-row justify="center">
+      <v-row justify="center">
         <base-avatar
           :icon="icon"
           :tile="tile"
-          size="80"
-          icon-size="80"
           :color="avatarColor"
           :outlined="outlined"
           :outline-color="outlineColor"
         />
-      </v-row> -->
-
-          <v-row
-        v-if="text"
-        justify="center"
+      </v-row>
+      <div
+        class="text-center flex-column"
       >
-  
         <base-subheading
           class="text-h6 primary--text mt-4"
           align="center"
           :title="title"
         />
-
         <base-body
           v-if="text"
           :text="text"
           align="center"
         />
-
-       <v-btn
-          depressed
-          outlined
-          small
-          color="primary"
-          class="text-none"
-          :to="to"
-        >
-          View More
-          <v-icon
-            right
-            v-text="'mdi-chevron-right'"
-          />
-        </v-btn>
-        </v-row>
-    
+      </div>
     </v-card-text>
   </v-card>
 </template>
@@ -80,7 +58,6 @@
       },
       outlined: Boolean,
       outlineColor: String,
-      to: Object,
     },
   }
 </script>
