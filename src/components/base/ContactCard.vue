@@ -1,39 +1,26 @@
 <template>
   <v-card
-    flat
-    v-bind="$attrs"
+    width="400"
   >
     <v-card-text>
-      <!-- <v-row justify="center">
-        <base-avatar
-          :icon="icon"
-          :tile="tile"
-          size="80"
-          icon-size="80"
-          :color="avatarColor"
-          :outlined="outlined"
-          :outline-color="outlineColor"
-        />
-      </v-row> -->
-
       <v-row
-        v-if="text"
         justify="center"
       >
   
         <base-subheading
           class="text-h6 primary--text mt-4"
           align="center"
-          :title="title"
+          :title="heading"
         />
 
         <base-body
-          v-if="text"
-          :text="text"
+          v-if="body"
+          :text="body"
           align="center"
         />
 
-       <v-btn
+
+        <v-btn
           depressed
           outlined
           small
@@ -41,14 +28,13 @@
           class="text-none"
           :to="to"
         >
-          View More
+          Read More
           <v-icon
             right
             v-text="'mdi-chevron-right'"
           />
         </v-btn>
-        </v-row>
-    
+      </v-row>
     </v-card-text>
   </v-card>
 </template>
@@ -58,21 +44,29 @@
     name: 'Feature',
 
     props: {
+      color: {
+        type: String,
+        default: 'white',
+      },
       icon: {
         type: String,
         required: true,
       },
-      tile: {
-        type: Boolean,
-        default: false,
-      },
-      title: {
+      heading: {
         type: String,
         required: true,
       },
-      text: {
+      body: {
         type: String,
         default: '',
+      },
+      rounded: {
+        type: Boolean,
+        default: false,
+      },
+      tile: {
+        type: Boolean,
+        default: false,
       },
       avatarColor: {
         type: String,
@@ -80,7 +74,10 @@
       },
       outlined: Boolean,
       outlineColor: String,
-      to: Object,
+      to: {
+        type: Object,
+        default: () => ({}),
+      },
     },
   }
 </script>
