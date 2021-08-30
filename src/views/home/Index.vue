@@ -20,6 +20,7 @@
         // 'our-team',
         'sections-crops',
         // 'standout-callout',
+        'section-our-partners',
         'section-footer',
       ]),
     ],
