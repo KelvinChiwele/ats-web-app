@@ -6,18 +6,18 @@
     :color="color || 'white'"
     :height="$vuetify.breakpoint.mdAndUp ? '60px' : '60px'"
   >
-    <!-- <v-img
+    <v-img
       class="hidden-sm-and-down"
       :max-width="$vuetify.breakpoint.mdAndUp ? '60px' : '60px'"
       max-height="60px"
       min-height="60px"
-      :src="require('@/assets/campfire.svg')"
-    /> -->
+      :src="require('@/assets/logo.jpg')"
+    />
 
-    <v-toolbar-title class="text-h5">
+    <v-toolbar-title class="headline px-3">
       <router-link
         :to="{ name: 'Home' }"
-        tag="h4"
+        tag="h5"
         style="cursor: pointer"
         v-text="appData.subTitle"
       />
