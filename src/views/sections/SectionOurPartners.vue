@@ -56,7 +56,7 @@
             title: 'COO',
             name: 'Sherri Cayne',
             socialLinks: [
-              { link: 'https://twitter.com', icon: 'mdi-web' },
+              { link: 'https://www.fmc.com/en', icon: 'mdi-web' },
             ],
               src: require('@/assets/partners/FMC-logo.jpg'),
           },
@@ -64,7 +64,7 @@
             title: 'CTO',
             name: 'Erica Baker',
             socialLinks: [
-              { link: 'https://twitter.com', icon: 'mdi-web' },
+              { link: 'https://www.aeciworld.com/', icon: 'mdi-web' },
             ],
               src: require('@/assets/partners/AECI-plant-health-logo.jpg'),
           },
