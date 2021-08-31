@@ -44,6 +44,7 @@
             v-for="media in appData.socialLinks"
             :key="media.link"
             :href="media.link"
+            rel="noreferrer"
             target="_blank"
             class="ma-1"
             min-width="40px"
