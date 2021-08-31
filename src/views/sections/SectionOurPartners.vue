@@ -48,9 +48,7 @@
             title: 'CEO',
             name: 'Neil Barnett',
             socialLinks: [
-              { link: 'https://linkedin.com', icon: 'mdi-linkedin' },
               { link: 'https://twitter.com', icon: 'mdi-twitter' },
-              { link: 'mailto:sample@example.com', icon: 'mdi-email' },
             ],
             src: require('@/assets/partners/Avima-logo.jpg'),
           }, 
@@ -58,9 +56,7 @@
             title: 'COO',
             name: 'Sherri Cayne',
             socialLinks: [
-              { link: 'https://linkedin.com', icon: 'mdi-linkedin' },
-              { link: 'https://twitter.com', icon: 'mdi-twitter' },
-              { link: 'mailto:sample@example.com', icon: 'mdi-email' },
+              { link: 'https://twitter.com', icon: 'mdi-web' },
             ],
               src: require('@/assets/partners/FMC-logo.jpg'),
           },
@@ -68,9 +64,7 @@
             title: 'CTO',
             name: 'Erica Baker',
             socialLinks: [
-              { link: 'https://linkedin.com', icon: 'mdi-linkedin' },
-              { link: 'https://twitter.com', icon: 'mdi-twitter' },
-              { link: 'mailto:sample@example.com', icon: 'mdi-email' },
+              { link: 'https://twitter.com', icon: 'mdi-web' },
             ],
               src: require('@/assets/partners/AECI-plant-health-logo.jpg'),
           },
@@ -78,9 +72,7 @@
             title: 'CFO',
             name: 'Wesley Graves',
             socialLinks: [
-              { link: 'https://linkedin.com', icon: 'mdi-linkedin' },
-              { link: 'https://twitter.com', icon: 'mdi-twitter' },
-              { link: 'mailto:sample@example.com', icon: 'mdi-email' },
+              { link: 'https://twitter.com', icon: 'mdi-web' },
             ],
               src: require('@/assets/partners/Inline-trading-logo.png'),
           },
@@ -88,11 +80,17 @@
             title: 'CFO',
             name: 'Wesley Graves',
             socialLinks: [
-              { link: 'https://linkedin.com', icon: 'mdi-linkedin' },
-              { link: 'https://twitter.com', icon: 'mdi-twitter' },
-              { link: 'mailto:sample@example.com', icon: 'mdi-email' },
+              { link: 'https://twitter.com', icon: 'mdi-web' },
             ],
-              src: require('@/assets/partners/Inline-trading-logo.png'),
+              src: require('@/assets/partners/K2-logo.jpg'),
+          },
+          {
+            title: 'CFO',
+            name: 'Wesley Graves',
+            socialLinks: [
+              { link: 'https://twitter.com', icon: 'mdi-web' },
+            ],
+              src: require('@/assets/partners/Farmag-logo.jpg'),
           },
         ],
       }

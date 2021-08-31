@@ -1,7 +1,7 @@
 <template>
   <v-hover #default="{ hover }">
     <v-card
-      max-height="400"
+      max-height="200"
       width="auto"
       class="px-auto"
       flat
