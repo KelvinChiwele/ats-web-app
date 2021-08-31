@@ -24,8 +24,8 @@
           cols="12"
           md="2"
         >
-          <base-feature
-            class="pa-3"
+          <base-feature-card
+            class="pa-2"
             v-bind="feature"
           />
         <!-- <base-feature-card
@@ -52,6 +52,7 @@
           {
             icon: 'mdi-flash',
             title: 'ADJUVANTS',
+            heading: 'ADJUVANTS',
             text: 'Used to enhance pesticides effectiveness',
             body: 'Used to enhance pesticides effectiveness',
             to: { name: 'Home' }
@@ -59,6 +60,7 @@
           {
             icon: 'mdi-cog',
             title: 'FUNGICIDE',
+            heading: 'FUNGICIDE',
             text: 'Used to kill fungi or fungal spores.',
             body: 'Used to kill fungi or fungal spores.',
              to: { name: 'Home' }
@@ -66,6 +68,7 @@
           {
             icon: 'mdi-responsive',
             title: 'HERBICIDE',
+            heading: 'HERBICIDE',
             text: 'Used to control unwanted plants.',
             body: 'Used to control unwanted plants.',
              to: { name: 'Home' }
@@ -73,6 +76,7 @@
           {
             icon: 'mdi-face-agent',
             title: 'INSECTICIDE',
+            heading: 'INSECTICIDE',
             text: 'Used to kill unwanted insects',
             body: 'Used to kill unwanted insects',
              to: { name: 'Home' }
