@@ -9,7 +9,7 @@
         md="6"
       >
         <v-img
-          :src="require('@/assets/instagram/ahmad-kadhim-GeHVEDrqMB8-unsplash.jpg')"
+          :src="require('@/assets/team/maize.jpg')"
           height="400px"
         />
       </v-col>

@@ -11,7 +11,7 @@
     <blog-author
       name="Martin Flox"
       bio="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      :src="require('@/assets/testimony/testimony-1.jpg')"
+      :src="require('@/assets/logo.jpg')"
     />
   </base-section>
 </template>

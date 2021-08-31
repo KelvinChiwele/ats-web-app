@@ -19,7 +19,7 @@
         md="6"
       >
         <v-img
-          :src="require('@/assets/instagram/lukasz-szmigiel-dAgtO5H8cXg-unsplash.jpg')"
+         :src="require('@/assets/team/cabbage.jpg')"
           height="400px"
         />
       </v-col>

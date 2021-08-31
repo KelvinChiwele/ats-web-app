@@ -18,7 +18,7 @@
         >
           <blog-card
             :post="post"
-            :src="require('@/assets/projects/jamison-mcandie-waZEHLRP98s-unsplash.jpg')"
+            :src="require('@/assets/team/maize.jpg')"
           />
         </v-col>
       </template>
