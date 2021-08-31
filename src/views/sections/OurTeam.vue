@@ -53,7 +53,7 @@
               { link: 'https://twitter.com', icon: 'mdi-twitter' },
               { link: 'mailto:sample@example.com', icon: 'mdi-email' },
             ],
-            src: require('@/assets/team/maize.jpg'),
+            src: require('@/assets/crops/maize.jpg'),
           }, 
           {
             title: 'COO',
@@ -63,7 +63,7 @@
               { link: 'https://twitter.com', icon: 'mdi-twitter' },
               { link: 'mailto:sample@example.com', icon: 'mdi-email' },
             ],
-             src: require('@/assets/team/maize.jpg'),
+             src: require('@/assets/crops/maize.jpg'),
           },
           {
             title: 'CTO',
@@ -73,7 +73,7 @@
               { link: 'https://twitter.com', icon: 'mdi-twitter' },
               { link: 'mailto:sample@example.com', icon: 'mdi-email' },
             ],
-             src: require('@/assets/team/maize.jpg'),
+             src: require('@/assets/crops/maize.jpg'),
           },
           {
             title: 'CFO',
@@ -83,7 +83,7 @@
               { link: 'https://twitter.com', icon: 'mdi-twitter' },
               { link: 'mailto:sample@example.com', icon: 'mdi-email' },
             ],
-             src: require('@/assets/team/maize.jpg'),
+             src: require('@/assets/crops/maize.jpg'),
           },
         ],
       }

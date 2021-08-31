@@ -55,7 +55,7 @@ export default {
         crops: [
           {
             id: 1,
-            src: require('@/assets/team/cabbage.jpg'),
+            src: require('@/assets/crops/cabbage.jpg'),
             title: 'Cabbage',
             subtitle: 'Unsplash',
             date: new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }),
@@ -65,7 +65,7 @@ export default {
           },
           {
             id: 2,
-            src: require('@/assets/team/tomatoes.jpg'),
+            src: require('@/assets/crops/tomatoes.jpg'),
             title: 'Tomatoes',
             subtitle: 'Unsplash',
             date: new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }),
@@ -75,7 +75,7 @@ export default {
           },
           {
             id: 3,
-            src: require('@/assets/team/sugarcane.jpg'),
+            src: require('@/assets/crops/sugarcane.jpg'),
             title: 'Sugar Cane',
             subtitle: 'Unsplash',
             date: new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }),
@@ -85,7 +85,7 @@ export default {
           },
           {
             id: 4,
-            src: require('@/assets/team/maize.jpg'),
+            src: require('@/assets/crops/maize.jpg'),
             title: 'Corn',
             subtitle: 'Unsplash',
             date: new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }),
@@ -282,7 +282,7 @@ export default {
             id: 1,
             title: 'Title',
             author: 'John Smith',
-            src: "require('@/assets/team/maize.jpg')",
+            src: "require('@/assets/crops/maize.jpg')",
             description: 'Duis fringilla mauris ac pellentesque suscipit. Vestibulum in feugiat felis. Cras eget mattis lectus, sit amet ultricies leo. Donec imperdiet diam eu lectus scelerisque accumsan. Quisque sollicitudin, diam non eleifend tempor, tortor tortor pulvinar enim, sit amet maximus neque metus ac nulla. Morbi pellentesque leo ut nulla scelerisque pulvinar. In hac habitasse platea dictumst.',
             date: new Date().toLocaleDateString(),
             commentCount: 10,
@@ -291,7 +291,7 @@ export default {
             id: 2,
             title: 'Title',
             author: 'John Smith',
-            src: "require('@/assets/team/maize.jpg')",
+            src: "require('@/assets/crops/maize.jpg')",
             description: 'Duis fringilla mauris ac pellentesque suscipit. Vestibulum in feugiat felis. Cras eget mattis lectus, sit amet ultricies leo. Donec imperdiet diam eu lectus scelerisque accumsan. Quisque sollicitudin, diam non eleifend tempor, tortor tortor pulvinar enim, sit amet maximus neque metus ac nulla. Morbi pellentesque leo ut nulla scelerisque pulvinar. In hac habitasse platea dictumst.',
             date: new Date().toLocaleDateString(),
             commentCount: 10,
@@ -300,7 +300,7 @@ export default {
             id: 3,
             title: 'Title',
             author: 'John Smith',
-            src: "require('@/assets/team/maize.jpg')",
+            src: "require('@/assets/crops/maize.jpg')",
             description: 'Duis fringilla mauris ac pellentesque suscipit. Vestibulum in feugiat felis. Cras eget mattis lectus, sit amet ultricies leo. Donec imperdiet diam eu lectus scelerisque accumsan. Quisque sollicitudin, diam non eleifend tempor, tortor tortor pulvinar enim, sit amet maximus neque metus ac nulla. Morbi pellentesque leo ut nulla scelerisque pulvinar. In hac habitasse platea dictumst.',
             date: new Date().toLocaleDateString(),
             commentCount: 10,

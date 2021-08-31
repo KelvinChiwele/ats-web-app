@@ -9,7 +9,7 @@
         md="6"
       >
         <v-img
-          :src="require('@/assets/team/maize.jpg')"
+          :src="require('@/assets/crops/maize.jpg')"
           height="400px"
         />
       </v-col>

@@ -18,7 +18,7 @@
         >
           <blog-card
             :post="post"
-            :src="require('@/assets/team/maize.jpg')"
+            :src="require('@/assets/crops/maize.jpg')"
           />
         </v-col>
       </template>

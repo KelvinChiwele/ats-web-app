@@ -16,7 +16,7 @@
       LoadSections([
         'map',
         'get-in-touch',
-        // 'section-contacts',
+        'section-contacts',
         'section-footer',
       ]),
     ],

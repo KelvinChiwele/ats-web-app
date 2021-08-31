@@ -19,7 +19,7 @@
         md="6"
       >
         <v-img
-         :src="require('@/assets/team/cabbage.jpg')"
+         :src="require('@/assets/crops/cabbage.jpg')"
           height="400px"
         />
       </v-col>
