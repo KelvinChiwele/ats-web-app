@@ -48,7 +48,7 @@
             title: 'CEO',
             name: 'Neil Barnett',
             socialLinks: [
-              { link: 'https://twitter.com', icon: 'mdi-twitter' },
+              { link: 'https://avima.co.za/', icon: 'mdi-twitter' },
             ],
             src: require('@/assets/partners/Avima-logo.jpg'),
           }, 
@@ -80,7 +80,7 @@
             title: 'CFO',
             name: 'Wesley Graves',
             socialLinks: [
-              { link: 'https://twitter.com', icon: 'mdi-web' },
+              { link: 'https://seedmarketing.co.za/', icon: 'mdi-web' },
             ],
               src: require('@/assets/partners/K2-logo.jpg'),
           },
@@ -88,7 +88,7 @@
             title: 'CFO',
             name: 'Wesley Graves',
             socialLinks: [
-              { link: 'https://twitter.com', icon: 'mdi-web' },
+              { link: 'https://www.farmag.co.za/', icon: 'mdi-web' },
             ],
               src: require('@/assets/partners/Farmag-logo.jpg'),
           },

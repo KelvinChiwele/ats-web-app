@@ -50,6 +50,16 @@ const router = new Router({
           component: () => import('@/views/blog/Index.vue'),
         },
         {
+          path: 'new',
+          name: 'News',
+          component: () => import('@/views/home/News.vue'),
+        },
+        {
+          path: 'Partners',
+          name: 'Partners',
+          component: () => import('@/views/home/Partners.vue'),
+        },
+        {
           path: 'contact',
           name: 'Contact',
           component: () => import('@/views/contact/Index.vue'),

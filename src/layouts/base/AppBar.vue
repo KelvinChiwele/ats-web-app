@@ -43,12 +43,12 @@
           text
         >
           <span v-text="item.name" />
-          <v-icon
+          <!-- <v-icon
             v-if="item.icon && $vuetify.breakpoint.mdAndUp"
             small
             right
             v-text="item.icon"
-          />
+          /> -->
         </v-tab>
       </v-tabs>
     </div>
@@ -96,9 +96,9 @@
         items: [
           { name: 'Home', icon: 'mdi-home' },
           { name: 'About', icon: 'mdi-account-group' },
-          // { name: 'Services', icon: 'mdi-book-open-variant' },
           { name: 'Products', icon: 'mdi-book' },
-          // { name: 'Blog', icon: 'mdi-web' },
+          { name: 'News', icon: 'mdi-book-open-variant' },
+          { name: 'Partners', icon: 'mdi-web' },
           { name: 'Contact', icon: 'mdi-phone' },
         ],
       }
