@@ -11,6 +11,11 @@ export default {
           { name: 'Youtube', icon: 'mdi-youtube', link: 'https://www.youtube.com/channel/UCVdTZDqlfK1bpMFbBQx4kAA', color: '#FE0200' },
           { name: 'LinkedIn', icon: 'mdi-linkedin', link: 'https://www.linkedin.com/company/ats-agrochemicals-limited', color: '#0077B5' },
         ],
+        youtubeLinks: [
+          {src: 'https://www.youtube.com/embed/DLv9HEC-KpE'},
+          {src: 'https://www.youtube.com/embed/IR3mU4wSy-4'},
+          {src: 'https://www.youtube.com/embed/HJJop09nFOo'}
+        ],
         contact: {
           phone: { value: '+260 9064 5707', icon: 'mdi-phone' },
           email: { value: 'info@atszambia.com', icon: 'mdi-email' },
