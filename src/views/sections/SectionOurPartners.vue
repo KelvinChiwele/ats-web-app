@@ -72,7 +72,7 @@
             title: 'CFO',
             name: 'Wesley Graves',
             socialLinks: [
-              { link: 'https://twitter.com', icon: 'mdi-web' },
+              { link: 'http://www.nutrico.co.za/', icon: 'mdi-web' },
             ],
               src: require('@/assets/partners/Inline-trading-logo.png'),
           },

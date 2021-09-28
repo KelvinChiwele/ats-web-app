@@ -41,6 +41,20 @@
 
         </v-col>
       </template>
+
+      <base-btn
+        rounded
+        class="mt-10 mb-2 elevation-0"
+        color="offblack white--text"
+        depressed
+        href="https://www.youtube.com/channel/UCVdTZDqlfK1bpMFbBQx4kAA/videos"
+        target="_blank"
+      >
+        <span
+          class="font-weight-black text-none"
+          v-text="`Watch More ...`"
+        />
+      </base-btn>
     </v-row>
   </base-section>
 </template>
