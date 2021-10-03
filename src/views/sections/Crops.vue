@@ -1,18 +1,22 @@
 <template>
   <base-section
     id="our-team"
+    class="grey lighten-3"
   >
     <div class="justify-center align-center">
       <base-heading
         class="font-weight-bold"
-        title="PRODUCTS"
+        title="CROPS"
         align="center"
       />
       <base-divider
         color="primary"
         align="center"
       />
-
+      <base-body
+        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquet mauris non venenatis auctor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per."
+        align="center"
+      />
     </div>
     <v-row
       justify="center"
@@ -26,7 +30,7 @@
           sm="6"
           md="3"
         >
-          <base-product
+          <base-team-member
             v-bind="employee"
           />
         </v-col>
@@ -37,54 +41,50 @@
 
 <script>
   export default {
-    name: 'SectionProducts',
+    name: 'SectionOurTeam',
     data () {
       return {
         teamMembers: [
           {
-            color: '#75562c',
-            name: 'ADJUVANTS',
+            title: 'CEO',
+            name: 'Neil Barnett',
             socialLinks: [
               { link: 'https://linkedin.com', icon: 'mdi-linkedin' },
               { link: 'https://twitter.com', icon: 'mdi-twitter' },
               { link: 'mailto:sample@example.com', icon: 'mdi-email' },
             ],
-            src: require('@/assets/products/adjuvants.jpg'),
-            to: { name: 'Products' }
+            src: require('@/assets/crops/maize.jpg'),
           }, 
           {
-            color: '#aaa134',
-            name: 'FUNGICIDES',
+            title: 'COO',
+            name: 'Sherri Cayne',
             socialLinks: [
               { link: 'https://linkedin.com', icon: 'mdi-linkedin' },
               { link: 'https://twitter.com', icon: 'mdi-twitter' },
               { link: 'mailto:sample@example.com', icon: 'mdi-email' },
             ],
-             src: require('@/assets/products/fungicides.jpg'),
-             to: { name: 'Products' }
+             src: require('@/assets/crops/maize.jpg'),
           },
           {
-            color: '#a359a3',
-            name: 'HERBICIDES',
+            title: 'CTO',
+            name: 'Erica Baker',
             socialLinks: [
               { link: 'https://linkedin.com', icon: 'mdi-linkedin' },
               { link: 'https://twitter.com', icon: 'mdi-twitter' },
               { link: 'mailto:sample@example.com', icon: 'mdi-email' },
             ],
-             src: require('@/assets/products/herbicides.jpeg'),
-             to: { name: 'Products' }
+             src: require('@/assets/crops/maize.jpg'),
           },
           {
-            color: '#f16823',
-            name: 'INSECTICIDES',
+            title: 'CFO',
+            name: 'Wesley Graves',
             socialLinks: [
               { link: 'https://linkedin.com', icon: 'mdi-linkedin' },
               { link: 'https://twitter.com', icon: 'mdi-twitter' },
               { link: 'mailto:sample@example.com', icon: 'mdi-email' },
             ],
-             src: require('@/assets/products/insecticides.jpg'),
-             to: { name: 'Products' }
-          }
+             src: require('@/assets/crops/maize.jpg'),
+          },
         ],
       }
     },

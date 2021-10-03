@@ -16,8 +16,6 @@
       LoadSections([
         'hero',
         'section-products',
-        // 'flexible-callout',
-        // 'our-team',
         'sections-video',
         'section-our-partners',
         'section-footer',
